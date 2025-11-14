@@ -1,0 +1,10 @@
+package com.algashop.template.presentation;
+
+public class GatewayTimeoutException extends RuntimeException {
+    public GatewayTimeoutException() {
+    }
+
+    public GatewayTimeoutException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
